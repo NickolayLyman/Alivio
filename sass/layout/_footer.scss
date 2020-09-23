@@ -1,0 +1,29 @@
+.page-footer {
+    display: flex;
+    background-color: #245852;
+}
+.page-footer .container {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.page-footer-logo {  
+    margin-right: 300px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.37;
+    color: $title-color;
+}
+.page-footer-list {
+    display: flex;
+}
+.page-footer-list-item:not(:last-child) {
+    margin-right: 70px;
+}
+.page-footer-list-item-link {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: $title-color;
+}

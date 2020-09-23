@@ -1,0 +1,31 @@
+.success-story-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #245852;
+}
+
+.success-story-title {
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.57;
+    color: #FFFFFF;
+}
+.success-story-text {
+    margin-bottom: 57px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.57;
+    color: #FFFFFF;
+}
+.success-story-img {
+    width: 50%;
+    height: 100%;
+    border-radius: 5%;
+}
+.success-story-section-wrapper {
+    margin-right: 50px;
+}

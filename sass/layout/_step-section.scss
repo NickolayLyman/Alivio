@@ -1,0 +1,71 @@
+.title-box {
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+.step-section-title{
+font-weight: 700;
+font-size: 50px;
+line-height: 1.58;
+color: $secondary-color;
+
+}
+.step-section-item {
+    margin-left: 150px;
+    width: 50%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $main-color;
+}
+.step-list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.step-list-item {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: calc((100% - 30px*2)/3);  
+}
+
+.second-step {
+    position: absolute;
+    transform: translate(-108%, 8%);
+}
+.step-list-item-span {
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    }
+.step-list-item-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    
+}
+.first {
+    position: absolute;
+    transform: translate(67%, -198%);
+}
+.second {
+    position: absolute;
+    transform: translate(27%, -198%);
+}
+.third {
+    position: absolute;
+    transform: translate(142%, -249%);
+}
+.step-list-item-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    }
+

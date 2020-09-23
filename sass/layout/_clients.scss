@@ -1,0 +1,73 @@
+.clients-section .container {
+    display: flex;
+    position: relative;
+}
+.clients-section {
+    background-color: #E5E5E5;
+}
+.clients-section-img{
+    border-radius: 5%;
+    margin-right: 80px;
+}
+.clients-card {
+    padding: 20px;
+    position: absolute;
+    width: 294px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    transform: translate(-261%, 123%);
+
+}
+.clients-card-title {
+    margin-bottom: 21px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.57;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+.clients-card-img {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.clients-card-name {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.57;
+    text-align: center;
+    color: #000000;
+}
+.clients-card-subtitle {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,57;
+    color: #000000;
+}
+.clients-card-list-item {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.57;
+    color: #000000;
+    &:not(:last-child) {
+    margin-bottom: 10px;
+    }
+}
+.clients-section-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.57;
+    color: $secondary-color;
+}
+.clients-section-text {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.55;
+    color: #484848;
+}

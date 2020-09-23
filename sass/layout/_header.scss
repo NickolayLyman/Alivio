@@ -1,0 +1,39 @@
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    
+}
+.navigation-list {
+     display: flex;
+}
+.navigation-list-item-link {
+    display: block;
+    font-family: $secondary-font;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #292929;
+}
+.navigation-list-item:not(:last-child) {
+        margin-right: 72px;
+    }
+.page-header-btn-list {
+    display: flex;
+
+}
+.page-header-btn-list-item {
+     margin-left: auto;
+    }
+
+ .page-header-btn-list-item:not(:last-child) {
+    margin-left: 23px;
+    margin-right: 10px;
+}
+
+

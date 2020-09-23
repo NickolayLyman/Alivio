@@ -1,0 +1,19 @@
+.btn {
+    padding: 10px 30px 10px 30px;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.25;
+    text-align: center;
+    background: $secondary-color;
+    border: 1px solid $secondary-color;
+    border-radius: 20px;
+    color: #FFFFFF;
+    
+    &:hover,
+    &:focus {
+    background-color: transparent;
+    color:$main-color;
+
+    }
+}
